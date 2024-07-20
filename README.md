@@ -6,7 +6,7 @@ Transliteration is the process of converting text from one writing system into a
 
 The papluca/xlm-roberta-base-language-detection model has been fine-tuned on the Language Identification dataset, which includes text sequences in 20 different languages. This model is capable of identifying Hindi, an Indian language, as well as various other foreign languages.
 
-The goal is to fine-tune this model to detect other transliterated Indian languages such as Tamil, Malayalam, and Urdu. To achieve this, the ai4bharat/Aksharantar dataset, which includes 20 Indic language-English transliteration pairs, has been utilized.
+The goal is to fine-tune this model to detect other transliterated Indian languages such as Tamil, Malayalam, and Urdu. To achieve this, the https://huggingface.co/datasets/ai4bharat/Aksharantar dataset, which includes 20 Indic language-English transliteration pairs, has been utilized.
 
 A subset of the dataset, containing languages like Tamil, Urdu, and Assamese, has been loaded to fine-tune the model and streamline the training process. After training, the model accurately detects the intended languages.
 
